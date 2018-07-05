@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='jupydbg',
-      version='0.1',
+      version='0.1.1',
       description='Cell magic to inspect the stack after an error + Interactive unittest player', 
       url='http://github.com/gcoffin/jupydbg',
       author='Guillaume Coffin',
