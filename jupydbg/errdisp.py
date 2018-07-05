@@ -49,7 +49,7 @@ class AccordionTbFormatter(TracebackFormatter):
                         'color:#0c0' if i==lineno else '',
                         linecache.getline(filename,i).replace(' ','&nbsp;')))
             stack.append(
-                VBox([HBox([Text(filename, layout=Layout(width='30em',margin=0)),
+                VBox([HBox([Text(filename, layout=Layout(width='30em',margin="0")),
                             HTML(str(lineno), layout=Layout(width='5em')),
                             HTML(funname, layout=Layout(width='20em'))]),
                       HBox([btn,
